@@ -1,0 +1,21 @@
+{
+  "name": "katapult_makerspace_doorsystem",
+  "version": "0.0.1",
+  "description": "A system to read and write RFID cards and authenticate them",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "firebase": "^7.5.2",
+    "firebase-admin": "^8.8.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.0.0",
+    "mfrc522-rpi": "^2.0.0",
+    "rpi-softspi": "^1.0.5",
+    "util": "^0.12.1"
+  }
+}

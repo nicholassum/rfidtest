@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "katapultmakerspace",
+  "private_key_id": "f00e8b9ea4a94dfd6564e5d789f567c96de5080a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9byM3sKQ+Q57B\nZ5VRMHqHwzMTqphudpfY6sPz7i4PmQwC+On6AlDSoq8xXeZ4/95fBaCtZr77I1hK\nlKiwkSBe+4DdyT2CKmT7v6w2FWaJS5M0iAaxqa2PubQNTaW0L3+DQ526RaJvbSId\nGi4lK09ftUIsPSor4TJtlHK2bBcUWUF5ngQr753srii1tHmG2jt7l6gaQPF8lBxS\nG62hhVQGiPKKPZ8jpf+OqDB+1FRrl6CDrASbMNpB1TKz3nYKeCbBopGXlS8frieo\nKMoxVV9l8zG0vWaOwWoOiAhpz7oUSJzISN2p8E67jN2aFYVZ4kPNBqK+zQUQLKtf\nfNOJjDWVAgMBAAECggEAGCZqA/iGB9YREDEHbTFT/ajaAyDVjAecdi//yUJNJvno\n+RwIoDHZYfERiqag8j4UeGK8SD74DAZGhEONee0WhmVj2WKFb+m9tAaMityRlOFI\npALPb6jlEpSnKqcCgAUqKW7eVdf4zGHKXpFu3pg150qxY/hsPunXxvaM5UrEanh6\nM4ZgTTjJQ9z+mPUtAgC8u97Hii/htJSfsBluGt2tdlqghYHLfx2KJoa+727gTgUB\nrmzhKDxUtLqNUgtWjLrHcBcoerBV5CsJl9GkTzZySJIm+FfGEF7tx9XeUxEQuIsY\n3V9F/ih8Z8hx6Ax8f7L4pPwJclK+2lLlNw9VYqLX4QKBgQDvSoosKC670xJolGBh\n4RbkQoVzecDmCNcclWpsZPbTz8phNl1BMyb1zrI1fA1byUil1Ocv3M0vm/bl6LTN\nkR85Ycx42XzQHOmLKYOlhbsdC2l1e9jyNik3guCfJDgutGHkq/yJfpOhD3rp+us9\n546u+iem6Gctg1YV7Z4NYNZ2XQKBgQDKqWBEIEbjnLXfYoHmljx4U5cE1D0hKXS9\np4QtOCauayL62U4uiqWLep/9VYMMtOXM1N5GeiNqZLA+/Lf22ZQehoRM1fg+BsDh\naMK85V35dbPhOHimOV9LMAT7XfBobQ0w4V9gOnvShjQIgNmOQC87O5QtbuONy/cL\nx3ZmQXXYmQKBgQCEWZ4Cvlba2+uanDaS7IRUy9Y0AGuIz+rqjFnIii9bB9rP2dnK\nbhhmbGR04KAi3DmqPw9/kYiLhKASmZsm99VlT4pgbSpzkQo7RkLiEg1kCyPRLybX\nEM3LPkAuxUGt02cxq06KXdAZjQ5Wy8nA+4oXjZTQ5EntCm9awYphq+XyoQKBgBnS\n8Whc8IuKaYZ4h/L5C+WNST4dSVjTboPIN8iHUi6BimiKjjLSCfw2+PIQFm3lEy9B\npL04TRD+mZK9Izf6S6yEGZGs5kAJHkTa0428cHgcLnqxdnY/80uiZ9AcDUlRNBAZ\nd8zMRwDxhunaeV5uAVa75crQSYDFD8rZdNXc24ZpAoGAJ1OxvHgDVV8wAv12SOrl\n15KhsgpwQeZ6A9xJnkEtqKrq/owHz+PMZQrnRQhdSm6qtdEKFFTJrJWAe1TthVG0\n2y3YOBw7DIPoch8UWLl8Ig1/tLVXiLZ9N79/QzXBd2s8NFkn9JhLSYaMoVuUSd7o\ns48JEPtr35LB93FIi9Cving=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ciphg@katapultmakerspace.iam.gserviceaccount.com",
+  "client_id": "118146614572710622596",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ciphg%40katapultmakerspace.iam.gserviceaccount.com"
+}

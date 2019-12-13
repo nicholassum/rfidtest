@@ -1,0 +1,5 @@
+{
+    "firebase_url": "https://katapultmakerspace.firebaseio.com/",
+    "admin_creds": "firebaseadmin.json",
+    "machine": 1
+}
