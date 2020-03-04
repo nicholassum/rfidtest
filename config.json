@@ -1,5 +1,6 @@
 {
-    "firebase_url": "https://katapultmakerspace.firebaseio.com/",
+    "firebase_url": "https://katapult-labs.firebaseio.com",
     "admin_creds": "firebaseadmin.json",
+    "functions_endpoint": "https://us-central1-katapult-labs.cloudfunctions.net/",
     "machine": 1
 }

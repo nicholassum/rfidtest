@@ -1,0 +1,6 @@
+figure out how we are going to get the users id from the admin-page to the writer
+
+create the reader function
+
+how to handle a lost card
+    - disable old card and then set new card

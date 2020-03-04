@@ -27,13 +27,17 @@ function write_user() {
                         .then(function(answers) {
                             let loading_icon = twirlTimer("Searching for card ");
 
-                            function write() {
+                            function write() {                                
                                 rfid_io.action_when_connected(function(factory_id) {
                                     let data = rfid_io.read_data();
                                     let uid = db_access.generate_uid();
                                     let fid = new IdModel(factory_id);
                                     this.reader.writeDataToBlock(8, uid.id);
-                                    db_access.associate_user_card(answers.uid, uid.toString(), fid.toString());
+                                    db_access.associate_user_card(answers.uid, uid.toString(), fid.toString()).then((res) => {
+                                        console.log(res)
+                                    }, function(e) {
+                                        console.log(e);                                        
+                                    });
                                     clearInterval(loading_icon);
                                 }, function(e) {
                                     if (e.code.toString()[0] == '4')
@@ -53,10 +57,9 @@ function write_user() {
                         rfid_io.action_when_connected(function(factory_id) {
                             let fid = new IdModel(factory_id);
                             let uid = new IdModel(rfid_io.read_data());
-                            db_access.authenticate_card(uid.toString(), fid.toString()).then(function(badge){
-                                db_access.report_card_use(uid.toString());
-                                console.log("Access granted to: ", badge.member_id);
-
+                            db_access.authenticate_card(uid.toString(), fid.toString()).then((res) =>{
+                                console.log("Access Granted!")
+                                console.log(res)
                                 setTimeout(write, 1000);
                             }, function(e){
                                 console.log(e);
